@@ -1,0 +1,210 @@
+body {
+  padding:  0px;
+  margin: 0px;
+  font-family:'Roboto', sans-serif
+}
+
+/* * {
+  border: 1px solid red;
+} */
+
+#header {
+  /*background:rgba(41,44,51,0.9) ;*/
+  padding: 25px;
+  font-size:small
+  /*background-color: blue; */
+}
+
+
+#logo {
+  width: 50px;
+  height: 50px;
+
+}
+
+#nav_links {
+  /*width: 70%;*/
+  float: right;
+
+}
+
+#other_links {
+  float: right;
+  list-style-type: none;
+  color:white;
+}
+
+#other_links li {
+  line-height: 0.5px;
+  padding:10px;
+}
+
+#other_links li:last-child {
+  background-color:#FB6930;
+  border-radius:20px;
+  padding:5px 10px 5px 10px;
+}
+
+#other_links li {
+  display: inline;
+
+}
+
+#first {
+  background:url("wallpaper8.jpg") no-repeat
+}
+
+#first :first-child {
+   background: rgba(41,44,51,0.9);
+}
+#sign_in_up li {
+  display: inline;
+}
+
+#directions img {
+  width:10px;
+  height: 10px;
+}
+
+#outerLayout {
+  position:relative;
+  border: 1px solid red;
+  height:800px;
+  width:100%;
+
+}
+
+#innerContent {
+    position:absolute;
+    top:320px;
+    right:290px;
+    width:50%;
+    font-size:1.7em;
+    color:#ccc;
+}
+
+#innerContent img {
+  /*float:right;*/
+  position: absolute;
+  top:-25px;
+  left:690px;
+  height: 50px;
+  width:50px;
+  /*color:#4a4d54;*/
+
+}
+
+#innerContent:nth-child(1) {
+    color:#CCCCCC;
+
+    /*margin-top:140px*/
+}
+#innerContent div:nth-child(2) {
+    color:#CCCCCC;
+
+    /*margin-top:140px*/
+}
+#innerContent div:nth-child(3) {
+    color:#CCCCCC;
+
+    /*margin-top:140px*/
+}
+
+#innerLayout {
+  position:absolute;
+  width:70%;
+  right:20%;
+
+}
+
+#innerBottom {
+  display: inline;
+}
+
+#innerBottom p {
+  color:white;
+  font-size: small;
+  word-wrap: break-word;
+  overflow: hidden;
+  
+}
+
+#topBottom div {
+
+}
+
+#topBottom div {
+  display: inline;
+
+}
+
+#second {
+  width: 100%;
+  height: 590px;
+  background:white;
+
+}
+
+#begin {
+  /*width: 25%;*/
+  height: 250px;
+  position:relative;
+  top:50px;
+  left:100px;
+
+}
+#begin li {
+display: inline-block;
+width:30%;
+}
+
+#begin li:first-child {
+font-size:1.5em;
+word-wrap: break-word;
+font-weight: bold;
+color:#6a6b70
+}
+
+#begin li:last-child {
+bottom:-290px;
+right:-250px;
+overflow: hidden;
+	width: 0;
+	height: 0;
+	border-left: 350px solid transparent;
+	border-right: 350px solid transparent;
+	border-bottom: 700px solid #fb6930;
+  opacity: 0.8;
+
+
+position: absolute;
+}
+
+
+
+
+#third  {
+background: rgba(41,44,51,0.9);
+width: 100%;
+height: 500px;
+position: relative;
+
+}
+
+#third:first-child {
+  position:absolute;
+  border:1px solid red;
+
+}
+
+#fourth {
+background-color:white;
+width: 100%;
+height: 1500px;
+}
+
+#fifth {
+  background: rgba(41,44,51,0.9);
+width: 100%;
+height: 500px;
+}
